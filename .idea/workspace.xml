@@ -108,13 +108,13 @@
       <change afterPath="$PROJECT_DIR$/../ProjectSetup/src/test/java/StepDefinations/SD01_navigateToHNwebsite.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ProjectSetup/src/test/java/StepDefinations/SD02_CreateMultipleAcc.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ProjectSetup/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasicOfJava/AT03_StringInt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasicOfJava/AT04_GlobalVariables.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasicOfJava/AT05_createAnObjectAndUseIt01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasicOfJava/AT06_createAnObjectAndUseIt02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasicOfJava/AT07_staticmethod01.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasicOfJava/AT08_staticmethod02.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasicOfJava/AT09_AccessArrayEle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BasicOfJava/AT10_ArrayLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BasicOfJava/AT11_UserDir.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/BasicOfJava/AT12_HashMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT01_constructor01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT02_constructor02.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT03_Encapsulation01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/JavaOOPSconcepts/AT04_Encapsulation02.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sample/src/test/java/PlayPen/jjkjk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -147,65 +147,19 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.AT09_AccessArrayEle.test13">
-    <configuration name="AT04_GlobalVariables" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AT04_Encapsulation02.envMethod03">
+    <configuration name="AT04_Encapsulation02.envMethod03" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RamyaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BasicOfJava.*" />
+          <option name="PATTERN" value="JavaOOPSconcepts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BasicOfJava" />
-      <option name="MAIN_CLASS_NAME" value="BasicOfJava.AT04_GlobalVariables" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AT05_createAnObjectAndUseIt01.test07" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RamyaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicOfJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BasicOfJava" />
-      <option name="MAIN_CLASS_NAME" value="BasicOfJava.AT05_createAnObjectAndUseIt01" />
-      <option name="METHOD_NAME" value="test07" />
+      <option name="PACKAGE_NAME" value="JavaOOPSconcepts" />
+      <option name="MAIN_CLASS_NAME" value="JavaOOPSconcepts.AT04_Encapsulation02" />
+      <option name="METHOD_NAME" value="envMethod03" />
       <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AT06_createAnObjectAndUseIt02.test10" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RamyaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicOfJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BasicOfJava" />
-      <option name="MAIN_CLASS_NAME" value="BasicOfJava.AT06_createAnObjectAndUseIt02" />
-      <option name="METHOD_NAME" value="test10" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AT08_staticmethod02" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RamyaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicOfJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BasicOfJava" />
-      <option name="MAIN_CLASS_NAME" value="BasicOfJava.AT08_staticmethod02" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -226,13 +180,61 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AT10_ArrayLoop.test14" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RamyaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BasicOfJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BasicOfJava" />
+      <option name="MAIN_CLASS_NAME" value="BasicOfJava.AT10_ArrayLoop" />
+      <option name="METHOD_NAME" value="test14" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AT11_UserDir.UserProjectLocation" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RamyaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BasicOfJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BasicOfJava" />
+      <option name="MAIN_CLASS_NAME" value="BasicOfJava.AT11_UserDir" />
+      <option name="METHOD_NAME" value="UserProjectLocation" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AT12_HashMap.test16" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RamyaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="BasicOfJava.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="BasicOfJava" />
+      <option name="MAIN_CLASS_NAME" value="BasicOfJava.AT12_HashMap" />
+      <option name="METHOD_NAME" value="test16" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AT04_Encapsulation02.envMethod03" />
+        <item itemvalue="JUnit.AT11_UserDir.UserProjectLocation" />
+        <item itemvalue="JUnit.AT12_HashMap.test16" />
+        <item itemvalue="JUnit.AT10_ArrayLoop.test14" />
         <item itemvalue="JUnit.AT09_AccessArrayEle.test13" />
-        <item itemvalue="JUnit.AT08_staticmethod02" />
-        <item itemvalue="JUnit.AT06_createAnObjectAndUseIt02.test10" />
-        <item itemvalue="JUnit.AT05_createAnObjectAndUseIt01.test07" />
-        <item itemvalue="JUnit.AT04_GlobalVariables" />
       </list>
     </recent_temporary>
   </component>
