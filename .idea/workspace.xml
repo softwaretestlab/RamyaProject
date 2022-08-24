@@ -108,11 +108,10 @@
       <change afterPath="$PROJECT_DIR$/../ProjectSetup/src/test/java/StepDefinations/SD01_navigateToHNwebsite.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ProjectSetup/src/test/java/StepDefinations/SD02_CreateMultipleAcc.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ProjectSetup/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasicOfJava/thiskeyword.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT03_XpathLearning.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT04_mapinput.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sample/src/test/java/PlayPen/jjkjk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumLearning/AT02_LocatorsLearning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumLearning/AT02_LocatorsLearning.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumLearning/AT03_XpathLearning.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/SeleniumLearning/AT03_XpathLearning.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -144,7 +143,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="D:/Tabcorp-Jagan/Tabcorp-End/eclipse-workspace2020/DIF-API-E2E" />
   </component>
-  <component name="RunManager" selected="JUnit.AT03_XpathLearning.xpath">
+  <component name="RunManager">
     <configuration name="AT03_XpathLearning" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RamyaProject" />
       <extension name="coverage">
@@ -176,32 +175,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="thiskeyword" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AT04_mapinput" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RamyaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BasicOfJava.*" />
+          <option name="PATTERN" value="SeleniumLearning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BasicOfJava" />
-      <option name="MAIN_CLASS_NAME" value="BasicOfJava.thiskeyword" />
+      <option name="PACKAGE_NAME" value="SeleniumLearning" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT04_mapinput" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="thiskeyword.Employee" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AT04_mapinput.mpalearn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RamyaProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="BasicOfJava.*" />
+          <option name="PATTERN" value="SeleniumLearning.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="BasicOfJava" />
-      <option name="MAIN_CLASS_NAME" value="BasicOfJava.thiskeyword" />
-      <option name="METHOD_NAME" value="Employee" />
+      <option name="PACKAGE_NAME" value="SeleniumLearning" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT04_mapinput" />
+      <option name="METHOD_NAME" value="mpalearn" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -225,11 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AT04_mapinput.mpalearn" />
+        <item itemvalue="JUnit.AT04_mapinput" />
         <item itemvalue="JUnit.AT03_XpathLearning.xpath" />
         <item itemvalue="JUnit.AT03_XpathLearning" />
         <item itemvalue="JUnit.thiskeyword.test" />
-        <item itemvalue="JUnit.thiskeyword.Employee" />
-        <item itemvalue="JUnit.thiskeyword" />
       </list>
     </recent_temporary>
   </component>
