@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
-public class AT04_mapinput {
+public class AT04_iframeConcept {
     @Test
     public void mpalearn() throws InterruptedException {
         //Setting up chromedriver.
