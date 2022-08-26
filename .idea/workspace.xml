@@ -108,12 +108,14 @@
       <change afterPath="$PROJECT_DIR$/../ProjectSetup/src/test/java/StepDefinations/SD01_navigateToHNwebsite.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ProjectSetup/src/test/java/StepDefinations/SD02_CreateMultipleAcc.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../ProjectSetup/src/test/java/runner/TestRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/BasicOfJava/AT13_trimLearn.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT05_NavigateBackFront.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT09_listofLinks.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT10_DropDownSelect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT07_SwitchTabs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT11_WebTables.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../sample/src/test/java/PlayPen/jjkjk.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT05_NavigateBackFront.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT06_NavigateBackFront.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT06_RadioButtonSelect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/SeleniumLearning/AT08_RadioButtonSelect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumLearning/AT05_NavigateBackFront.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/SeleniumLearning/AT06_RadioButtonSelect.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,8 +147,8 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="D:/Tabcorp-Jagan/Tabcorp-End/eclipse-workspace2020/DIF-API-E2E" />
   </component>
-  <component name="RunManager" selected="JUnit.AT05_NavigateBackFront.NavHn">
-    <configuration name="AT05_NavigateBackFront.NavHn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AT11_WebTables.table">
+    <configuration name="AT06_NavigateBackFront.NavHn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RamyaProject" />
       <extension name="coverage">
         <pattern>
@@ -155,8 +157,39 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumLearning" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT05_NavigateBackFront" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT06_NavigateBackFront" />
       <option name="METHOD_NAME" value="NavHn" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AT07_SwitchTabs" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RamyaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumLearning" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT07_SwitchTabs" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AT07_SwitchTabs.SwitchTabLearn" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RamyaProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="SeleniumLearning.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="SeleniumLearning" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT07_SwitchTabs" />
+      <option name="METHOD_NAME" value="SwitchTabLearn" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -178,7 +211,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AT10_DropDownSelect" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="AT11_WebTables.table" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="RamyaProject" />
       <extension name="coverage">
         <pattern>
@@ -187,39 +220,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="SeleniumLearning" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT10_DropDownSelect" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AT10_DropDownSelect.iframeReg" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RamyaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="SeleniumLearning.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="SeleniumLearning" />
-      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT10_DropDownSelect" />
-      <option name="METHOD_NAME" value="iframeReg" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AT13_trimLearn.trimusage" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="RamyaProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="BasicOfJava.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="BasicOfJava" />
-      <option name="MAIN_CLASS_NAME" value="BasicOfJava.AT13_trimLearn" />
-      <option name="METHOD_NAME" value="trimusage" />
+      <option name="MAIN_CLASS_NAME" value="SeleniumLearning.AT11_WebTables" />
+      <option name="METHOD_NAME" value="table" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -227,11 +229,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.AT05_NavigateBackFront.NavHn" />
+        <item itemvalue="JUnit.AT11_WebTables.table" />
+        <item itemvalue="JUnit.AT07_SwitchTabs" />
+        <item itemvalue="JUnit.AT07_SwitchTabs.SwitchTabLearn" />
+        <item itemvalue="JUnit.AT06_NavigateBackFront.NavHn" />
         <item itemvalue="JUnit.AT09_listofLinks.linkList" />
-        <item itemvalue="JUnit.AT10_DropDownSelect.iframeReg" />
-        <item itemvalue="JUnit.AT10_DropDownSelect" />
-        <item itemvalue="JUnit.AT13_trimLearn.trimusage" />
       </list>
     </recent_temporary>
   </component>

@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.io.IOException;
 import java.util.concurrent.TimeUnit;
 
-    public class AT05_NavigateBackFront {
+    public class AT06_NavigateBackFront {
         @Test
         public void NavHn() throws InterruptedException, IOException {
             //setting up chromedriver

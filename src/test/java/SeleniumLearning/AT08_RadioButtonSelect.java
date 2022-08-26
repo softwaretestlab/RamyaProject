@@ -11,7 +11,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import java.util.List;
 import java.util.concurrent.TimeUnit;
 
-public class AT06_RadioButtonSelect {
+public class AT08_RadioButtonSelect {
 
     @Test
     public void NavHn() throws InterruptedException {
