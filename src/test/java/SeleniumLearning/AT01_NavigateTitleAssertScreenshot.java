@@ -1,6 +1,7 @@
 package SeleniumLearning;
 
-import io.github.bonigarcia.wdm.WebDriverManager;
+import BaseClass.OpenBrowser;
+import PropertiesFile.ReadPropertiesFile;
 import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 import org.junit.Test;
@@ -17,17 +18,11 @@ public class AT01_NavigateTitleAssertScreenshot {
 
     @Test
     public void NavHn() throws IOException {
-        //below 2 line will open chrome browser
-        WebDriverManager.chromedriver().setup();
-        WebDriver driver = new ChromeDriver();
-        //maximize window
-        driver.manage().window().maximize();
-        //navigate to website
-        driver.get("https://www.thegoodguys.com.au/");
+        OpenBrowser.NavToWebsite(ReadPropertiesFile.PropFile("GGhomePage"));
         //implicit wait
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+        OpenBrowser.driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
         //get title of the page
-        String ActualTitle=driver.getTitle();
+        String ActualTitle=OpenBrowser.driver.getTitle();
         System.out.println("ActualTitle : "+ActualTitle);
         String ExpectedTitle="The Good Guys - Online Electrical & Home Appliances";
         //Assertion Version-1 [here we are trying to match expected to actual]
@@ -36,13 +31,13 @@ public class AT01_NavigateTitleAssertScreenshot {
         Assert.assertTrue(ActualTitle.contains("Electrical"));
 
         //Screenshot
-        File screenshotFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
+        File screenshotFile = ((TakesScreenshot)OpenBrowser.driver).getScreenshotAs(OutputType.FILE);
         FileUtils.copyFile(screenshotFile, new File("C:\\Users\\softw\\screenshot.png"));
         //this will close the browser
-       // driver.close();
+       // OpenBrowser.driver.close();
         //this will close chromdrive.exe + browser
-     //   driver.quit();
-        // if we dont driver.quit, then everytime we run the code, chromediver.exe will open and it
+     //   OpenBrowser.driver.quit();
+        // if we dont OpenBrowser.driver.quit, then everytime we run the code, chromediver.exe will open and it
         //buildup in our machine and our machine will crash
 
 
