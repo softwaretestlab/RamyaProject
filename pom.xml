@@ -91,7 +91,7 @@
               <goal>generate</goal>
             </goals>
             <configuration>
-              <projectName>ShivaniProject</projectName>
+              <projectName>RamyaProject</projectName>
               <!-- output directory for the generated report -->
               <outputDirectory>${project.build.directory}/cucumber-JVM-reports</outputDirectory>
               <!-- optional, defaults to outputDirectory if not specified -->
